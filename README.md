@@ -2,7 +2,7 @@
 
 CompletableFuture Methods Covered:
 
-supplyAsync - Async task with result
+supplyAsync - Start Async Task with Result - Execute a task asynchronously and return a result.
 
 thenApply - Transform result
 
