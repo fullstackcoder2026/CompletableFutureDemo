@@ -20,7 +20,7 @@ public class CompletableFutureBookStore {
 
         loadData();
 
-        System.out.println("=== CompletableFuture Examples with Book Store Project===\n");
+        System.out.println("===CompletableFuture Examples with Book Store Project===\n");
 
         // 1. supplyAsync - Asynchronous computation
         example1_SupplyAsync();
