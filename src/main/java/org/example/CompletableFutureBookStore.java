@@ -20,7 +20,7 @@ public class CompletableFutureBookStore {
 
         loadData();
 
-        System.out.println("=== CompletableFuture Examples with Book Store ===\n");
+        System.out.println("=== CompletableFuture Examples with Book Store Project===\n");
 
         // 1. supplyAsync - Asynchronous computation
         example1_SupplyAsync();
@@ -107,6 +107,7 @@ public class CompletableFutureBookStore {
     private static void loadData() throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         books = mapper.readValue(new File("books.json"), new TypeReference<List<Book>>(){});
+
         orders = mapper.readValue(new File("orders.json"), new TypeReference<List<Order>>(){});
         System.out.println("Loaded: " + books.size() + " books and " + orders.size() + " orders\n");
     }
